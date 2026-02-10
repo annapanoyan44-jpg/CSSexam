@@ -1,0 +1,450 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+
+body {
+  min-width: 360px;
+}
+body header {
+  width: 100%;
+  height: 50px;
+  border: solid seashell;
+  background: rgba(33, 32, 32, 0.567);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+body header:hover {
+  background-color: black;
+}
+body header nav {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: solid brown;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+}
+body header nav a {
+  text-decoration: none;
+  color: rgb(247, 237, 237);
+  width: 25%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  border: solid green;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+}
+body header nav a:hover {
+  background: rgba(252, 249, 249, 0.942);
+  color: black;
+}
+body #home {
+  width: 100%;
+  height: 100vh;
+  border: solid;
+  background: url(./../../img/nkar1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 300px;
+}
+body #home .menu_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+  border: solid;
+}
+body #home .menu_text .anahit, body #home .menu_text .roza {
+  font-size: 60px;
+  border: solid;
+}
+body #home .menu_text .naka {
+  font-size: 22px;
+  background: rgba(0, 0, 0, 0.607);
+  padding: 10px;
+  border: solid;
+}
+body #home .menu_text .naka:hover {
+  background-color: rgba(240, 248, 255, 0.57);
+  color: black;
+}
+body #home .anna {
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.692);
+  padding: 5px;
+  border: solid;
+}
+body #home p {
+  color: aliceblue;
+  border: solid;
+}
+body #about {
+  width: 100%;
+  height: 200vh;
+  padding: 50px;
+  background-color: #a67773 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: aliceblue;
+  border: solid;
+}
+body #about .text1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+  border: solid;
+}
+body #about .text1 h2 {
+  font-size: 40px;
+  border: solid;
+}
+body #about .text1 p {
+  font-size: 25px;
+  border: solid;
+}
+body #about .text2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: solid;
+}
+body #about .text2 img {
+  width: 170px;
+  height: 120px;
+  border-radius: 100%;
+}
+body #about .text2 .the {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 25px;
+  border: solid;
+}
+@media screen and (max-width: 419px) {
+  body #about .text2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+body #about .nkar3 {
+  width: 100%;
+  height: 80vh;
+  background: url(./../../img/onepage.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  border: solid;
+}
+body #about .text3 {
+  width: 100%;
+  border: solid;
+  border: solid rebeccapurple;
+}
+body #about .text3 h2 {
+  font-size: 30px;
+  margin: 0 0 40px 0;
+  border: solid;
+  border: solid;
+}
+body #about .text3 .himnakan {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: solid;
+}
+body #about .text3 .himnakan div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: solid;
+}
+body #about .text3 .himnakan div p {
+  width: 100%;
+  text-align: start;
+  font-size: 25px;
+  border: solid;
+}
+@media screen and (max-width: 569px) {
+  body #about .text3 .himnakan {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 458px) {
+  body #about .text3 .himnakan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 50px;
+  }
+}
+body #LOCATION {
+  width: 100%;
+  height: 100vh;
+  background: url(./../../img/map.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(75%);
+          filter: grayscale(75%);
+}
+body #contact {
+  width: 100%;
+  height: 100vh;
+  padding: 50px;
+  background-color: #84939a;
+  color: aliceblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+body #contact h2 {
+  font-size: 40px;
+  border: solid;
+}
+body #contact .text4 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: solid;
+}
+body #contact .text4 p {
+  width: 100%;
+  text-align: start;
+  font-size: 23px;
+  border: solid;
+}
+body #contact .text4 p .f {
+  background-color: black;
+  padding: 7px;
+  border: solid;
+}
+body #contact .text4 p .r {
+  font-weight: 900;
+  font-size: 30px;
+  border: solid;
+}
+body #contact .inputs {
+  width: 100%;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: solid;
+}
+body #contact .inputs input {
+  width: 100%;
+  height: 25%;
+  color: rgb(131, 128, 128);
+  border: solid;
+}
+body footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  color: aliceblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+body footer p a {
+  text-decoration: none;
+  color: aliceblue;
+}

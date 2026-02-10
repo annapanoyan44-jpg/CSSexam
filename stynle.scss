@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  
+}
+
+body {
+    min-width: 360px;
+    @import './sass/headers/header.scss';
+    @import './sass/main/home.scss';
+    @import './sass/main/about.scss';
+    @import './sass/main/LOCATION.scss';
+    @import './sass/main/contact.scss';
+    @import './sass/foots/foote.scss';
+}
