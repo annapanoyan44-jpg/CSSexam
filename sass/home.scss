@@ -1,0 +1,48 @@
+@import './../flex.scss';
+
+#home {
+    width: 100%;
+    height: 100vh;
+    border: solid;
+    background: url(./../../img/nkar1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    min-height: 90%;
+    @include flex();
+    flex-direction: column;
+    gap: 300px;
+
+    .menu_text {
+        @include flex();
+        flex-direction: column;
+        gap: 50px;
+        border: solid;
+        .anahit,.roza{
+            font-size: 60px;
+            border: solid;
+        }
+        .naka{
+            font-size: 22px;
+            background: rgba(0, 0, 0, 0.607);
+            padding: 10px;
+            border: solid;
+            &:hover{
+                background-color: rgba(240, 248, 255, 0.57);
+                color: black;
+            }
+        }
+    }
+    .anna{
+         font-size: 18px;
+            background: rgba(0, 0, 0, 0.692);
+            padding: 5px;
+            border: solid;
+    }
+
+    p {
+        color: aliceblue;
+        border: solid;
+    }
+
+}

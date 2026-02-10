@@ -1,0 +1,116 @@
+@import './../flex.scss';
+
+#about {
+    width: 100%;
+    height: 200vh;
+    padding: 50px;
+    background-color: #a67773 !important;
+    @include flex();
+    flex-direction: column;
+    justify-content: space-around;
+    color: aliceblue;
+    border: solid;
+
+    .text1 {
+        width: 100%;
+        @include flex();
+        flex-direction: column;
+        gap: 50px;
+        border: solid;
+
+        h2 {
+            font-size: 40px;
+            border: solid;
+        }
+
+        p {
+            font-size: 25px;
+            border: solid;
+        }
+    }
+
+    .text2 {
+        width: 100%;
+        @include flex();
+        justify-content: space-between;
+        border: solid;
+
+        img {
+            width: 170px;
+            height: 120px;
+            border-radius: 100%;
+
+        }
+
+        .the {
+            @include flex();
+            flex-direction: column;
+            font-size: 25px;
+            border: solid;
+
+        }
+
+        @media screen and (max-width:419px) {
+            @include flex();
+            flex-direction: column;
+        }
+
+    }
+
+    .nkar3 {
+        width: 100%;
+        height: 80vh;
+        background: url(./../../img/onepage.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        border: solid;
+    }
+
+    .text3 {
+        width: 100%;
+        border: solid;
+        border: solid rebeccapurple;
+
+        h2 {
+            font-size: 30px;
+            margin: 0 0 40px 0;
+            border: solid;
+            border: solid;
+        }
+
+        .himnakan {
+            width: 70%;
+            @include flex();
+            justify-content: space-between;
+            border: solid;
+
+
+            div {
+                width: 100%;
+                @include flex();
+                flex-direction: column;
+                border: solid;
+
+                p {
+                    width: 100%;
+                    text-align: start;
+                    font-size: 25px;
+                    border: solid;
+                }
+            }
+
+            @media screen and (max-width:569px) {
+                width: 100%;
+            }
+            
+        @media screen and (max-width:458px) {
+            @include flex();
+            flex-direction: column;
+          gap: 50px;
+        }
+        }
+
+    }
+
+}
